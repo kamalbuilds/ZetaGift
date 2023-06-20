@@ -1,5 +1,5 @@
-export const TRANSFER_CONTRACT_ADDRESS = '';
-export const CALIM_TOKEN_CONTRACT_ADDRESS = '';
+export const TRANSFER_CONTRACT_ADDRESS = '0x582bEa2a2F17128F1a8D3C26d632feDA5f2CD004';
+export const CLAIM_TOKEN_CONTRACT_ADDRESS = '';
 
 export const HERO_IMAGE_URL = 'ipfs://QmUWVRuyFuVfo45estsJt2VaQUSEc4uwcPoeWFaeYxERua/seanwatase_isometric_crypto_transferring_from_one_wallet_to_ano_96084ff1-fe03-4dfd-8783-a3ecc85a24da.png';
 export const FEATURES_IMAGE_URL = 'ipfs://QmcTgfb2AXj1TcVj4i9jSgZc8A8LhxHYCXbu5Mngsx7iVT/Coins.png';
