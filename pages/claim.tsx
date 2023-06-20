@@ -1,11 +1,11 @@
 import { Box, Container, Flex, Heading, SimpleGrid, Stack, Text, useToast } from "@chakra-ui/react";
 import { MediaRenderer, Web3Button, useContract, useContractMetadata } from "@thirdweb-dev/react";
-import { CALIM_TOKEN_CONTRACT_ADDRESS, CLAIM_TOKEN_IMAGE } from "../const/addresses";
+import { CLAIM_TOKEN_CONTRACT_ADDRESS, CLAIM_TOKEN_IMAGE } from "../const/addresses";
 
 export default function ClaimPage() {
     const {
         contract
-    } = useContract(CALIM_TOKEN_CONTRACT_ADDRESS, "token-drop");
+    } = useContract(CLAIM_TOKEN_CONTRACT_ADDRESS, "token-drop");
 
     const {
         data: contractMetadata
@@ -31,7 +31,7 @@ export default function ClaimPage() {
                         <Text fontWeight={"bold"}>Claim {claimAmount} ${contractMetadata?.symbol} Tokens</Text>
                         <Box>
                             <Web3Button
-                                contractAddress={CALIM_TOKEN_CONTRACT_ADDRESS}
+                                contractAddress={CLAIM_TOKEN_CONTRACT_ADDRESS}
                                 action={(contract) => contract.erc20.claim(claimAmount)}
                                 onSuccess={() => toast({
                                     title: 'Claim Successful',
