@@ -6,9 +6,12 @@ Gift More than Just Tokens - Gift Experiences! 🌐💫
 
 ## Deployed Contracts on ZetaChain
 
-ERC-20 Transfer Contract - 0x582bEa2a2F17128F1a8D3C26d632feDA5f2CD004
+| Description                             | Address                                             | Link                                                |
+| --------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| ERC-20 Transfer Contract                | 0x582bEa2a2F17128F1a8D3C26d632feDA5f2CD004          | [Explorer](https://explorer.zetachain.com/address/0x582bEa2a2F17128F1a8D3C26d632feDA5f2CD004)          |
+| ZetaGift Drop Contract                  | 0x2dd235464eB6cfA07c79c0e6AFf57C7ad01DBD98          | [Explorer](https://explorer.zetachain.com/address/0x2dd235464eB6cfA07c79c0e6AFf57C7ad01DBD98)          |
+| Zeta ERC-20 Token                       | 0x90c8bb00c073C8B16012B6391Ab4518ECfB07183          | [Explorer](https://explorer.zetachain.com/address/0x90c8bb00c073C8B16012B6391Ab4518ECfB07183)          |
 
-ZetaGift Drop Contract - 0x2dd235464eB6cfA07c79c0e6AFf57C7ad01DBD98
 
 ### 📝 Description:
 
@@ -23,3 +26,10 @@ ZetaGift is not just a transaction, it's a journey. Whether you're giving back t
 ZetaGift has the potential to exponentially increase user engagement and bring ZetaChain's vision to billions. With its versatile and compelling use cases, ZetaGift can attract a massive audience, from crypto enthusiasts and professionals to novices, charities, and businesses. It caters to a global community, encouraging crypto adoption and fostering a vibrant ecosystem, consequently pushing ZetaChain towards achieving its ambitious goal of a billion daily users. 🌐💪
 
 So, why wait? Join the ZetaGift revolution today, and start gifting more than just tokens! 💝🚀
+
+### Project Details 👀
+
+| Category       | Description                                                               |
+| -------------- | ------------------------------------------------------------------------- |
+| Frontend       | Next.js project crafted with Chakra UI and Framer Motion.                 |
+| Smart Contract | Hardhat smart contract environment written using the ZetaChain Contract Template. |
